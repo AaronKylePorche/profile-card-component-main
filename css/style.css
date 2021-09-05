@@ -17,13 +17,13 @@
 
 .body {
     min-height: 100vh;
-    max-width: 100vw;
+    
     background-color: var(--Dark-cyan);
     display: flex;
     align-items: center;
     justify-content: center;
     color: var(--Very-dark-desaturated-blue);
-    
+    overflow-x: hidden;
 }
 
 .bg-holder {
@@ -90,7 +90,7 @@
 
 .stat-category {
 
-    font-size: 11px;
+    font-size: 12px;
     letter-spacing: 2px;
     margin-top: 5px;
 }
