@@ -1,0 +1,164 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+:root {
+    --Dark-cyan: hsl(185, 75%, 39%);
+    --Very-dark-desaturated-blue: hsl(229, 23%, 23%);
+    --Dark-grayish-blue: hsl(227, 10%, 46%);
+
+    --Dark-gray: hsl(0, 0%, 59%);
+}
+
+
+.body {
+    min-height: 100vh;
+    background-color: var(--Dark-cyan);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--Very-dark-desaturated-blue);
+    
+}
+
+.bg-holder {
+
+    position: relative;
+}
+
+.bg-pattern-top,
+.bg-pattern-bottom {
+    position: absolute;
+    height: 200%;
+}
+
+.bg-pattern-top {
+
+    top: -151%;
+    left: -166%;
+}
+    
+
+
+.bg-pattern-bottom {
+
+    right: -180%;
+    bottom: -148%;
+
+    
+}
+.card {
+
+    font-family: 'Kumbh Sans', sans-serif;
+    background-color: white;
+    text-align: center;
+    border-radius: 25px;
+    overflow: hidden;
+    position: relative;
+}
+
+.img-holder {
+
+    margin: -50px 0 20px 0; 
+
+}
+
+.user-img {
+
+    border-radius: 50%;
+    border: white 5px solid;
+}
+
+.location {
+    
+    margin: 8px 0 25px 0;
+}
+
+.age {
+    margin-left: 6px;
+    
+}
+
+.location {
+    font-size: 16px;
+}
+
+.stat-category {
+
+    font-size: 11px;
+    letter-spacing: 2px;
+    margin-top: 5px;
+}
+
+.age,
+.user-name,
+.stat-number {
+ 
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.age,
+.location,
+.stat-category {
+
+    font-weight: 400;
+    color: var(--Dark-gray);
+}
+
+.card-footer {
+    border-top: hsl(0, 0%, 89%) 1px solid;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 25px 0 25px 0;
+    padding-top: 25px;
+
+}
+
+/* 
+@media (min-width: 400px)  {
+    
+    
+    .bg-pattern-bottom {
+
+        right: -66%;
+        bottom: -41%;
+    }
+
+    .bg-pattern-top {
+
+        top: -17%;
+        left: -82%;
+
+    }
+
+
+
+}
+
+@media (min-width: 800px) {
+
+
+    .bg-pattern-bottom {
+
+        right: -10%;
+        bottom: -20%;
+    }
+
+    .bg-pattern-top {
+
+        top: -10%;
+        left: -10%;
+
+    }
+
+}
+
+ */
+
+
+
