@@ -21,39 +21,17 @@ html {
 .body {
     min-height: 100vh;    
     background-color: var(--Dark-cyan);
+    background-image: url(/images/bg-pattern-top.svg),url(/images/bg-pattern-bottom.svg);
+    background-repeat: no-repeat;
+    background-position: bottom 50vh right 50vw, top 50vh left 50vw;
     display: flex;
     align-items: center;
     justify-content: center;
     color: var(--Very-dark-desaturated-blue);
     overflow-x: hidden;
-}
-
-.bg-holder {
-
-    position: relative;
-}
-
-.bg-pattern-top,
-.bg-pattern-bottom {
-    position: absolute;
-    height: 200%;
-}
-
-.bg-pattern-top {
-
-    top: -151%;
-    left: -166%;
-}
-    
-
-
-.bg-pattern-bottom {
-
-    right: -180%;
-    bottom: -148%;
-
     
 }
+
 .card {
 
     font-family: 'Kumbh Sans', sans-serif;
